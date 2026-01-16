@@ -2,7 +2,8 @@
 # Manual edits may be lost in future updates.
 
 provider "registry.terraform.io/kreuzwerker/docker" {
-  version = "3.6.2"
+  version     = "3.6.2"
+  constraints = "3.6.2"
   hashes = [
     "h1:sbdKCURC0XeBU6kPVfj24w7mtZtKbuibaqxtZEZ4bjU=",
     "zh:22b51a8fb63481d290bdad9a221bc8c9e45d66d1a0cd45beed3f3627bf1debd8",
