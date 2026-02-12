@@ -1,0 +1,14 @@
+services:
+  kong:
+    image: kong:3.6
+    container_name: kong
+    ports:
+      - "8000:8000"   # Proxy
+      - "8001:8001"   # Admin API
+    volumes:
+      - ./kong.yml:/kong/kong.yml
+    environment:
+      KONG_DATABASE: "off"
+      KONG_DECLARATIVE_CONFIG: /kong/kong.yml
+      KONG_LOG_LEVEL: debug
+    command: kong start
