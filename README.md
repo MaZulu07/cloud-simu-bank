@@ -35,7 +35,7 @@ This project demonstrates a simulated cloud environment using open-source tools 
 - Automated backend build and deployment process
 
 **Tech Stack:**
-- Terraform / Ansible
+- Terraform
 - GitHub & GitHub Actions
 - Docker
 - YAML (CI/CD workflow definitions)
