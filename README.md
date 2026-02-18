@@ -92,7 +92,8 @@ This project demonstrates how to replicate core AWS cloud services using open-so
 - MongoDB
 - MinIO
 - Kong Gateway
-- Prometheus & Grafana
+- Prometheus 
+- Grafana
 - Terraform / Ansible
 - GitHub & GitHub Actions
 - Docker
